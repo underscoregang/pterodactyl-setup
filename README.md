@@ -134,15 +134,3 @@ systemctl status nginx php8.3-fpm mariadb redis-server pteroq wings --no-pager
 ```
 
 If Panel and Wings are on separate VPSs, check each service on the machine where it is installed.
-
-## Completion checklist
-
-- [ ] VPS created and accessible
-- [ ] Domain points to the correct VPS
-- [ ] Dependencies installed
-- [ ] Panel installed and accessible
-- [ ] HTTPS configured
-- [ ] Wings installed and connected
-- [ ] Test game server starts
-- [ ] Backups available before an upgrade
-- [ ] Correct version-specific guide reviewed
