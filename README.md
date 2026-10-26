@@ -85,8 +85,19 @@ After installing the v1 Panel and Wings:
 2. Configure a location, node, and server allocations in the Panel.
 3. Apply the node configuration to Wings using the node's configuration instructions.
 4. Check that the node connects and a test game server starts.
+5. if node offline, you should run command for
+- Restart Wings
+```
+sudo systemctl restart wings
+```
+
+- Check Status Wings
+```
+sudo systemctl status wings
+```
 
 Installing both components is only the first part; the node must also be configured.
+
 
 ## 7. Upgrade from v1 to v2 — optional
 
