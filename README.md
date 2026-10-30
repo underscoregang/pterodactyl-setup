@@ -121,8 +121,8 @@ Before moving from v1 to v2:
 For PHP 8.3, add the required extension:
 
 ```bash
-apt -y install php8.3-intl
-systemctl restart php8.3-fpm
+apt -y install php8.4-intl
+systemctl restart php8.4-fpm
 php -m | grep -i intl
 ```
 
